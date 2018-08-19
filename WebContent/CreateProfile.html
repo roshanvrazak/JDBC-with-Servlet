@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Profile | rvr</title>
+</head>
+<body>
+	<!--  <center>-->
+	<div>
+		<fieldset>
+			<form action="./createProfile" method="POST">
+				<table>
+					<tr>
+						<th>SID:</th>
+						<td><input type="number" name="sid" required></td>
+					</tr>
+					<tr>
+						<th>First Name:</th>
+						<td><input type="text" name="fname" required></td>
+					</tr>
+					<tr>
+						<th>Last Name:</th>
+						<td><input type="text" name="lname" required></td>
+					</tr>
+					<tr>
+						<th>is Admin:</th>
+						<td><select name="isad" required>
+								<option value="Y">yes</option>
+								<option value="N" selected>no</option>
+						</select></td>
+					</tr>
+					<tr>
+						<th>Password:</th>
+						<td><input type="password" name="passwd" required></td>
+					</tr>
+					<tr>
+
+						<td><input type="submit"></td>
+					</tr>
+
+
+				</table>
+
+			</form>
+		</fieldset>
+	</div>
+	<!--  </center>-->
+</body>
+</html>
